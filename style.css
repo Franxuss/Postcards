@@ -1,0 +1,56 @@
+body{
+	background-color: black;font-size: 27px;
+}
+.postcard {
+	width: 700px;height: 500px;margin: auto;position: absolute;top: 50%; left: 50%;transform: translate(-50%,-50%);
+	background-color: white;padding: 15px;
+	font-family: 'Reenie Beanie';
+}
+.encabezado{
+	overflow: hidden;
+	height: 30%;
+}
+.encabezado img{
+	float: right;
+	max-width: 100px;
+}
+h1{
+	font-size: 70px;
+	margin-left: 45px;
+}
+.cuerpo-izq{
+	float: left;
+	width: 47%;
+}
+.cuerpo-der{
+	margin-top: 30px;
+	float: right;
+	width: 47%;
+}
+.cuerpo-der imput{
+	display: block;
+}
+.cuerpo-der input[type=text]{
+	width: 300px;
+	font-size: 25px;
+	border: none;
+	border-bottom: 2px solid gray;
+	font-family: 'Reenie Beanie';
+	margin-bottom: 10px;
+	padding: 5px;
+}
+.cuerpo{
+	overflow: hidden;
+}
+.pie{
+	
+	overflow: hidden;
+	text-align: center;
+}
+.pie input[type=submit]{
+	border: none;
+	border-bottom: 2px solid gray;
+	background: rgb(199, 199, 199);
+	font-family: 'Reenie Beanie';
+	font-size: 30px;
+}
